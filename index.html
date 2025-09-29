@@ -157,9 +157,8 @@
 
 <script>
 document.getElementById("formPendaftaran").addEventListener("submit", function(e) {
-  e.preventDefault(); // Biar nggak reload halaman
+  e.preventDefault();
 
-  // Ambil data
   const nama = this.nama.value;
   const umur = this.umur.value;
   const telepon = this.telepon.value;
@@ -173,7 +172,7 @@ document.getElementById("formPendaftaran").addEventListener("submit", function(e
   const keluhan = this.keluhan.value;
   const riwayat = this.riwayat.value;
 
-  // Tentukan jam praktik
+  
   let jam_praktek = "Jadwal belum tersedia";
   if (dokter === "dr. Bara,Sp.B.") {
     jam_praktek = "Senin - Rabu, 08:00 - 12:00";
@@ -206,3 +205,4 @@ document.getElementById("formPendaftaran").addEventListener("submit", function(e
 
 </body>
 </html>
+
