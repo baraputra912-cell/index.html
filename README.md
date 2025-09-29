@@ -6,7 +6,7 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #a8edea, #00FF7F);
+      background: linear-gradient(to right, #a8edea, #BA68C8);
       margin: 0;
       padding: 0;
     }
